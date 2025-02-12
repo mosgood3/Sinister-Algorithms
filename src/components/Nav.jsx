@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Menu } from "lucide-react"; // Ensure you have this installed or replace it with text/icon
-
+import { Menu } from "lucide-react";
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
